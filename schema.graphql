@@ -1,0 +1,9 @@
+directive @semanticNonNull(levels: [Int] = [0]) on FIELD_DEFINITION
+
+type User {
+  name: String @semanticNonNull
+}
+
+type Query {
+  viewer: User!
+}

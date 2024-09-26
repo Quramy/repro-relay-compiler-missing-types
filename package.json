@@ -1,0 +1,19 @@
+{
+  "name": "repro-relay-compiler-missing-types",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/relay-runtime": "^17.0.4",
+    "prettier": "^3.3.3",
+    "relay-compiler": "^18.0.0",
+    "relay-runtime": "^18.0.0",
+    "typescript": "^5.6.2"
+  }
+}
